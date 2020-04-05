@@ -1,3 +1,4 @@
+#homework1，并画出log(max-min)随n的图，应该近似为直线
 import numpy as np 
 import matplotlib.pyplot as plt
 
@@ -21,6 +22,5 @@ for i in range(8):
     print("n=",i+1)
     E,result=m_diag(i+1)
     nresult[i]=result
-print(nresult)
 plt.plot(x,nresult)
 plt.show()
